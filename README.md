@@ -19,3 +19,22 @@ WEEK 1:-
 4. Performance Visualization
 *Plotted training vs. validation accuracy and loss curves.
 *Evaluated the model on validation data to get final test accuracy and loss.
+
+
+
+WEEK 2:-
+
+
+5. Evaluation
+*Trained the model and saved it as garbage_classifier_model_boosted_trash.keras
+---> Evaluated on validation set:
+                      *Final accuracy: 76.04%
+                      *Trash class: 0.00 precision/recall (still underperforming)
+
+--->Generated:
+              *Confusion matrix
+              *Classification report
+              *Training/validation accuracy and loss plots
+ 6. Error Analysis
+                *Visualized misclassified trash images
+                *Observed that trash is often confused with plastic, cardboard, or metal
